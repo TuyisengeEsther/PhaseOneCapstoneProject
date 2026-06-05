@@ -11,6 +11,9 @@ Book Explorer is a simple and responsive web application that allows users to se
 📱 Responsive mobile menu (hamburger menu)
 ⏳ Loading state while fetching data
 🚫 No results message handling
+
+
+
 🛠️ Technologies Used
 HTML5
 Tailwind CSS
@@ -19,25 +22,26 @@ Open Library API
 LocalStorage API
 📂 Project Structure
 Book Explorer/
-│
-├── index.html
-├── favorites.html
-├── about.html
-│
-├── js/
-│   ├── fetchBooks.js
-│   ├── favorites.js
-│   ├── darkmode.js
-│   ├── menu.js
-│   └── main.js
-│
-└── README.md
+index.html
+favorites.html
+about.html
+ js/
+fetchBooks.js
+favorites.js
+darkmode.js
+menu.js
+main.js
+README.md
+
+
 🔧 How It Works
 1. Search Books
 
 Users enter a keyword, and the app fetches books from:
 
 https://openlibrary.org/search.json?q=SEARCH_TERM
+
+
 2. Display Books
 
 Books are displayed as cards with:
@@ -46,14 +50,19 @@ Cover image
 Title
 Author
 "Add to Favorites" button
+
+
 3. Favorites System
 Clicking "Add to Favorites" saves books in localStorage
 Favorites persist even after page reload
 Users can remove books anytime
-4. Dark Mode
+
+
+5. Dark Mode
 Toggles dark class on <html>
 Uses Tailwind dark: styling
-5. Loading & UX
+
+7. Loading & UX
 Shows loading indicator while fetching data
 Shows message when no books are found
 💾 Local Storage Key
