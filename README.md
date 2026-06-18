@@ -90,7 +90,43 @@ sm
 md
 lg
 xl
+Clone project
+git clone <repo-url>
 
+Create repo
+PhaseOneCapstoneProject
+Create branch
+git checkout -b feature/search-api
+
+Commit changes
+git add .
+git commit -m "Add API search functionality"
+
+Push branch
+git push origin feature/search-api
+
+Pull Request
+Open GitHub
+Compare & create PR into main
+Issues Tracking (GitHub)
+Create issues like:
+
+Fix search empty results bug
+Improve mobile layout spacing
+Add loading spinner
+Fix duplicate favorites
+Improve API error handling
+🚀 Deployment
+
+You can deploy using:
+
+GitHub Pages
+Vercel
+Example (GitHub Pages):
+Settings → Pages → Deploy from branch → main
+
+Author
+Tuyisenge Esther
 
 
 
