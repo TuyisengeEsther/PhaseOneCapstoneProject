@@ -168,6 +168,7 @@
     } from './js/favorites.js';
 
     const grid = document.getElementById('favoritesGrid');
+    //This function loads and displays all favorite books.
 
     function renderFavorites() {
 
@@ -195,9 +196,11 @@
 
           </div>
         `;
+        //No need to create cards because there are no books.
 
         return;
       }
+      //Processes one book at a time.
 
       books.forEach(book => {
 
